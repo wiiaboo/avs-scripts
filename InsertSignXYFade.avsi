@@ -1,4 +1,4 @@
-function InsertSignXYFade(clip mainclip, clip "overlayclip", int "startframe", int "endframe", int "x", int "y", int "fad1", int "fad2", int "offset", int "offset2", float "opacity", int "nw", int "nh") {
+function InsertSignXYFade(clip mainclip, clip overlayclip, int "startframe", int "endframe", int "x", int "y", int "fad1", int "fad2", int "offset", int "offset2", float "opacity", int "nw", int "nh") {
 
     x           = default(x,0)                # X position of overlayclip
     y           = default(y,0)                # Y position of overlayclip
